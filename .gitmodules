@@ -1,0 +1,3 @@
+[submodule "themes/risotto"]
+	path = themes/risotto
+	url = https://github.com/OmegaWei1984/risotto-fork.git
