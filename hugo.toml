@@ -18,6 +18,7 @@ sectionPagesMenu = "main"
 
 [params]
 noindex = false
+math = true
 
 [params.theme]
 palette = "gruvbox-light"
@@ -54,6 +55,13 @@ unsafe = true
     startLevel = 2
     endLevel   = 3
     ordered    = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)'], ['$', '$']]
 
 [privacy]
 
