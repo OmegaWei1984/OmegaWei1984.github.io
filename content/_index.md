@@ -1,9 +1,12 @@
-# 主页
+只是随便写写。
 
-一些思考；
+```cpp
+#include <iostream>
 
-一些产出；
+int main(void)
+{
+    std::cout << "Hello World!" << std::endl;
 
-一些沉淀；
-
-想写“干货”，但是还写不出来 ... 
+    return 0;
+}
+```
