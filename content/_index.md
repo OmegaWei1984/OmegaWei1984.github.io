@@ -1,5 +1,7 @@
 只是随便写写。
 
+$$E = mc^2$$
+
 ```cpp
 #include <iostream>
 
